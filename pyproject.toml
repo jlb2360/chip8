@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "chip8-emulator"
+version = "0.1.0"
+description = "A simple Chip-8 emulator in Python"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pygame = "^2.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
